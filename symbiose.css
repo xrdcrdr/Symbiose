@@ -134,3 +134,14 @@ color: black;
     float: left;
     box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
 }
+#passions p {
+    height: 45px;
+    width: 235px;
+    background-color: cyan;
+    float: right;
+    margin: 50px -180px 0 0;
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 15px;
+    box-shadow: 4px 4px 0 1px rgb(9, 15, 22);
+}
