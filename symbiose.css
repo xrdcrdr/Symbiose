@@ -144,3 +144,43 @@ color: black;
     padding-top: 15px;
     box-shadow: 4px 4px 0 1px rgb(9, 15, 22);
 }
+#passions p:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    color: beige;
+    transition: 0.8s ease-in-out;
+}
+/* ************ Footer *********** */
+
+footer {
+    background-color: #524A3A;
+    color: #FFFAE1;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea, button {
+    border: none;
+    width: 55%;
+    padding: 15px 10px;
+    margin: 1px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+}
+textarea {
+    height: 120px;
+}
+button {
+    font-size: 1.5em;
+    background-color: #FFFAE1;
+}
+button:hover {
+    background-color: #e55039;
+    color: whitesmoke;
+    cursor: pointer;
+    transition: 0.3 ease-in-out;
+    ;
+}
