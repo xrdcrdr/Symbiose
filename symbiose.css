@@ -185,3 +185,23 @@ button:hover {
     transition: 0.3 ease-in-out;
     ;
 }
+#deuxiemeTrait {
+    height: 1px;
+    width: 75%;
+    background-color: #FFFAE1;
+    margin: 60px auto;
+}
+#copyrighteticons {
+display: flex;
+margin-bottom: 20px;
+padding: 0 10%;
+}
+#copyright {
+    text-align: left;
+    width: 50%;
+}
+#icons {
+    text-align:right;
+    width: 50%;
+    
+}
