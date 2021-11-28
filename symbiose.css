@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Estonia&family=Zilla+Slab:wght@300&display=swap');
+body {
+    font-family: Zilla Slab, sans-serif;
+    padding: 0%;
+    margin: 0%;
+    background-color: dimgray;
+}
+ul {
+    padding: 0%;
+    margin: 0%;
+}
+li {
+    list-style: none;
+}
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+    padding-bottom: 30px;
+    padding-top: 130px;
+    font-size: 5em;
+    color: indianred;
+    text-shadow: 2px 4px 3px whitesmoke;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 3em;
+    color: cyan;
+    text-shadow: 2px 4px 3px red;
+}
+a {
+    text-decoration: none;
+    color:whitesmoke;
+}
+/* ************ NAVBAR *********** */
+header nav {
+    overflow: hidden;
+    background-color: indianred;
+    position: fixed;
+    width: 100%;
+    opacity: 0,8;
+    ;
+}
+header li {
+    float: right;
+    font-size: 1.5em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px;
+}
+
+#logo {
+    float: left;
+    font-weight: bold;
+    font-family: Zilla Slab;
+    font-style: oblique;
+}
+header li a:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    color: beige;
+    transition: 0.8s ease-in-out;
+}
+/* ************ IMG PRINCIPALE *********** */
+#imageprincipale {
+    padding-top: 60px;
+    background: url(images/pexels-miguel-á-padriñán-167092.jpg) no-repeat  50% 50%;
+    background-size: cover;
+    height: 699px ;
+}
+#premierTrait {
+    height: 6px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: whitesmoke;
+}
+/* ************ PRESENTATION *********** */
+#presentation {
+    background-color: #FFFAE1;
+    padding: 10px 0px 100px 0px;
+}
+#textIntro {
+    padding: 0px 20%;
+}
+#Comite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imageComite h4 {
+font-family: Zilla Slab;
+text-align: center;
+font-size: 1.1em;
+margin: 15px;
+font-weight: 300;
+color: black;
+}
+.imageComite img {
+    border-radius: 10px;
+    height: 240px;
+    width: 240px;
+    box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 7)
+}
+.imageComite img:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+    transition: 0.8s ease-in-out;
+}
+/* ************ Passions *********** */
+
+#passions h2{
+    height: 1400px;
+    background-color: #f1f2f6;
+    padding: 1px 2%;
+}
+
+#Chant {
+    background-image: url(images/bogomil-mihaylov-ekHSHvgr27k-unsplash.jpg);
+}
+#Instruments {
+    background-image: url(images/alexandre-brondino-zHFccz3713M-unsplash.jpg);
+}
+#Production {
+    background-image: url(images/tom-pottiger-6-3ZztOEjXs-unsplash.jpg);
+}
+#passions li{
+    margin: 65px 100px 100px;
+    height: 180px;
+    width: 55%;
+    float: left;
+    box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
+}
