@@ -24,22 +24,22 @@ h1 {
     padding-bottom: 30px;
     padding-top: 130px;
     font-size: 5em;
-    color: indianred;
-    text-shadow: 2px 4px 3px whitesmoke;
+    color: rgb(252, 176, 13);
+    text-shadow: 2px 4px 3px rgb(129, 2, 2);
 }
 h2 {
     text-transform: uppercase;
     text-align: center;
     padding-top: 30px;
     font-size: 3em;
-    color: cyan;
-    text-shadow: 2px 4px 3px red;
+    color: rgb(252, 176, 13);
+    text-shadow: 2px 4px 3px rgb(129, 2, 2);
 }
 h3 {
     padding-top: 30px;
     margin-left: 10px;
-    color: indianred;
-    text-shadow: 2px 4px 3px whitesmoke;
+    color: rgb(21, 15, 36);
+    text-shadow: 2px 4px 3px rgb(129, 2, 2);
     font-size: 2em;
 }
 a {
@@ -49,7 +49,7 @@ a {
 /* ************ NAVBAR *********** */
 header nav {
     overflow: hidden;
-    background-color: indianred;
+    background-color:rgb(21, 15, 36);
     position: relative;
     width: 100%;
     opacity: 0,8;
@@ -84,7 +84,7 @@ header li a:hover {
 /* ************ IMG PRINCIPALE *********** */
 #imageprincipale {
     padding-top: 60px;
-    background: url(images/pexels-miguel-á-padriñán-167092.jpg) no-repeat  50% 50%;
+    background: url(images/Microphone_Mixer_Mixing_Board_Macro_Knobs_b_w_1920x1200.jpg) no-repeat  50% 50%;
     background-size: cover;
     height: 699px ;
 }
