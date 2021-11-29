@@ -4,10 +4,10 @@ html {
     scroll-behavior: smooth;
 }
 body {
-    font-family: Zilla Slab, sans-serif;
+    /* font-family: Zilla Slab, sans-serif; */
+    font-family: 'Jost', sans-serif;
     padding: 0%;
     margin: 0%;
-    background-color: dimgray;
 }
 ul {
     padding: 0%;
@@ -140,39 +140,55 @@ text-decoration: underline;
     transition: 0.8s ease-in-out;
 }
 /* ************ Passions *********** */
-
-#passions h2{
-    height: 1400px;
+#passions {
     background-color: #f1f2f6;
-    padding: 1px 2%;
+}
+#passions ul{
+    display: flex;
+    margin-top: 80px;
+    padding-bottom: 80px;
+}
+#passions h2{
+    margin-top: 0px;
+    padding-bottom: 20px;
+    color: #194d83;
+    text-shadow: none;
 }
 
 #Chant {
+    margin: 0px 3% 0px 3%;
     background-image: url(images/bogomil-mihaylov-ekHSHvgr27k-unsplash.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 30%;
 }
 #Instruments {
+    margin: 0px 3% 0px 3%;
     background-image: url(images/alexandre-brondino-zHFccz3713M-unsplash.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 30%;
 }
 #Production {
+    margin: 0px 3% 0px 3%;
     background-image: url(images/tom-pottiger-6-3ZztOEjXs-unsplash.jpg);
+    background-size: cover;
+    height: 300px;
+    width: 30%;
 }
 #passions li{
-    margin: 65px 100px 100px;
-    height: 180px;
-    width: 55%;
-    float: left;
     box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
 }
 #passions p {
-    height: 45px;
-    width: 235px;
-    background-color: cyan;
-    float: right;
-    margin: 50px -180px 0 0;
+    border-radius: 5px;
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+    top: -90px;
+    background-color: rgb(25, 78, 132);
+    color: rgb(255, 255, 255);
     font-size: 1.5em;
     text-align: center;
-    padding-top: 15px;
-    box-shadow: 4px 4px 0 1px rgb(9, 15, 22);
 }
 #passions p:hover {
     opacity: 0.5;
@@ -294,3 +310,25 @@ padding: 0 10%;
     transform: scale(1.5);
     transition: 0.1s;
 }
+/* container  */
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px;
+    }
+  }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px;
+    }
+  }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px;
+    }
+  }
