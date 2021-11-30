@@ -24,22 +24,22 @@ h1 {
     padding-bottom: 30px;
     padding-top: 130px;
     font-size: 5em;
-    color: rgb(252, 176, 13);
-    text-shadow: 2px 4px 3px rgb(129, 2, 2);
+    color: rgb(240, 238, 235);
+    text-shadow: 3px 5px 4px rgb(21, 15, 36);
 }
 h2 {
     text-transform: uppercase;
     text-align: center;
     padding-top: 30px;
     font-size: 3em;
-    color: rgb(252, 176, 13);
-    text-shadow: 2px 4px 3px rgb(129, 2, 2);
+    color: rgb(240, 238, 235);
+    text-shadow: 3px 5px 4px rgb(21, 15, 36);
 }
 h3 {
     padding-top: 30px;
     margin-left: 10px;
     color: rgb(21, 15, 36);
-    text-shadow: 2px 4px 3px rgb(129, 2, 2);
+    text-shadow: 2px 4px 3px rgb(21, 15, 36);
     font-size: 2em;
 }
 a {
@@ -49,7 +49,7 @@ a {
 /* ************ NAVBAR *********** */
 header nav {
     overflow: hidden;
-    background-color:rgb(21, 15, 36);
+    background-color:#fce7be;
     position: relative;
     width: 100%;
     opacity: 0,8;
@@ -70,9 +70,10 @@ header li a {
     font-weight: bold;
     font-family: Zilla Slab;
 }
+
 #logos img {
-    width: 50px;
-    height: 50px;
+    width: 149px;
+    height: 149px;
     margin-top: 10px;
 }
 header li a:hover {
@@ -96,7 +97,7 @@ header li a:hover {
 }
 /* ************ PRESENTATION *********** */
 #presentation {
-    background-color: #FFFAE1;
+    background-color: #fce7be;
     padding: 10px 0px 100px 0px;
 }
 #textIntro {
@@ -152,7 +153,7 @@ text-decoration: underline;
 #passions h2{
     margin-top: 0px;
     padding-bottom: 20px;
-    color: #194d83;
+    color: rgb(21, 15, 36);
     text-shadow: none;
 }
 
