@@ -8,8 +8,8 @@ html {
 body {
     /* font-family: Zilla Slab, sans-serif; */
     font-family: 'Jost', sans-serif;
-    padding: 0%;
-    margin: 0%;
+    padding: 0;
+    margin: 0;
 }
 button
 {
@@ -28,7 +28,7 @@ h1 {
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 30px;
-    padding-top: 130px;
+    padding-top: 155px;
     font-size: 5em;
     color: rgb(240, 238, 235);
     text-shadow: 3px 5px 4px rgb(21, 15, 36);
@@ -38,7 +38,7 @@ h2 {
     text-align: center;
     padding-top: 30px;
     font-size: 3em;
-    color: rgb(240, 238, 235);
+    color: rgb(0, 79, 250);
     text-shadow: 3px 5px 4px rgb(21, 15, 36);
 }
 h3 {
@@ -55,11 +55,10 @@ a {
 /* ************ NAVBAR *********** */
 header nav {
     overflow: hidden;
-    background-color:#fce7be;
-    position: relative;
+    background: rgba(0, 79, 250, 0.678);
+    position: absolute;
     width: 100%;
-    opacity: 0,8;
-    ;
+    top: 0;
 }
 header li {
     float: right;
@@ -78,8 +77,8 @@ header li a {
 }
 
 #logos img {
-    width: 149px;
-    height: 149px;
+    width: 50px;
+    height: 50px;
     margin-top: 10px;
 }
 header li a:hover {
@@ -106,6 +105,8 @@ header li a:hover {
 }
 #textIntro {
     padding: 0px 20%;
+    text-align: center;
+    color: #0b004b;
 }
 #Comite {
     display: block;
